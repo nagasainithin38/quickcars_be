@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.security.PublicKey;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://nithin-capstone.netlify.app")
 @RestController
 @RequestMapping("/user")
 public class UserController {
